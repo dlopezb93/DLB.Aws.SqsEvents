@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>$(NetStandardTargetVersion)</TargetFramework>
+  </PropertyGroup>
+
+  <Import Project="../../config/CommonProperties.props" />
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.SQS" Version="$(AWSSDKSQSVersion)" />
+  </ItemGroup>
+  
+</Project>

@@ -1,0 +1,20 @@
+<Project>
+    <PropertyGroup Label="SDK Versions">
+        <NetStandardTargetVersion>netstandard2.1</NetStandardTargetVersion>
+    </PropertyGroup>
+
+    <PropertyGroup Label="Package Versions">
+      <AWSSDKSQSVersion>3.7.0.36</AWSSDKSQSVersion>
+      <StyleCopAnalyzersVersion>1.1.118</StyleCopAnalyzersVersion>
+      <MicrosoftCodeAnalysisFxCopAnalyzersVersion>3.3.0</MicrosoftCodeAnalysisFxCopAnalyzersVersion>
+    </PropertyGroup>
+
+    <PropertyGroup Label="Test Packages">
+      <CoverletMsBuildVersion>2.9.0</CoverletMsBuildVersion>
+      <MicrosoftNETTestSdkVersion>16.7.1</MicrosoftNETTestSdkVersion>
+      <MoqVersion>4.14.5</MoqVersion>
+      <XUnitRunnerVisualStudioVersion>2.4.3</XUnitRunnerVisualStudioVersion>
+      <XUnitVersion>2.4.1</XUnitVersion>
+      <AmazonLambdaTestUtilitiesVersion>1.1.0</AmazonLambdaTestUtilitiesVersion>
+    </PropertyGroup>
+</Project>

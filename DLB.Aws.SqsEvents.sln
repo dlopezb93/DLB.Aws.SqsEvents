@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DLB.Aws.SqsEvents", "src\DLB.Aws.SqsEvents\DLB.Aws.SqsEvents.csproj", "{0E9B7082-7E4F-48D1-97D4-926B430A55D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{11E8EDD3-5154-46E2-B86D-B56C4B638C08}"
+	ProjectSection(SolutionItems) = preProject
+		config\CodeAnalysis.ruleset = config\CodeAnalysis.ruleset
+		config\CodeAnalysis.Test.ruleset = config\CodeAnalysis.Test.ruleset
+		config\CommonProperties.props = config\CommonProperties.props
+		config\CommonProperties.Test.props = config\CommonProperties.Test.props
+		config\dependencies.props = config\dependencies.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E9B7082-7E4F-48D1-97D4-926B430A55D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E9B7082-7E4F-48D1-97D4-926B430A55D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E9B7082-7E4F-48D1-97D4-926B430A55D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E9B7082-7E4F-48D1-97D4-926B430A55D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {861D3A04-CB1D-446B-81B9-12F84E87482F}
+	EndGlobalSection
+EndGlobal

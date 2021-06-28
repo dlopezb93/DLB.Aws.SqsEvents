@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="Madoff.Test" Description="Rules for test projects of Madoff" ToolsVersion="15.0">
+  <Include Path="CodeAnalysis.ruleset" Action="Default" />
+  <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
+    <Rule Id="CA1303" Action="None" /><!-- Should retrieve string from Resources file -->
+    <Rule Id="CA1707" Action="None" /><!-- Disable IdentifiersShouldNotContainUnderscores rule -->
+    <Rule Id="CA2000" Action="None" /><!-- Should call IDisposable.Dispose -->
+    <Rule Id="CA2007" Action="None" /><!-- Consider calling ConfigureAwait on the awaited task. -->
+    <Rule Id="CS1591" Action="None" /><!-- Disable XMLComments for public members rule -->
+  </Rules>
+  <Rules AnalyzerId="Stylecop.Analyzers"  RuleNamespace="Stylecop.Analyzers" >
+    <Rule Id="SA0001" Action="None" /><!-- XML coments analysis is disabled due a configuration -->
+    <Rule Id="SA1600" Action="None" /><!-- Disable Elements should be documented rule -->
+    <Rule Id="SA1601" Action="None" /><!-- Disable patial elements should be documented rule -->
+    <Rule Id="SA1652" Action="None" /><!-- Disable EnableXmlDocumentationOutput rule -->
+    <Rule Id="CA2234" Action="None" /><!-- Disable Pass System.Uri objects instead of strings -->
+  </Rules>
+</RuleSet>

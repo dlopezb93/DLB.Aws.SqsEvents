@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="Madoff.Test" Description="Rules for test projects of Madoff" ToolsVersion="15.0">
+  <Include Path="CodeAnalysis.ruleset" Action="Default" />
+  <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
+    <Rule Id="CA1031" Action="None" /><!-- Do not catch general exception types. -->
+    <Rule Id="CA1032" Action="None" /><!-- Implement all exception constructors. -->
+    <Rule Id="CA1303" Action="None" /><!-- Do not pass literals as localized parameters. -->
+    <Rule Id="CA1308" Action="None" /><!-- Normalize strings to uppercase.. -->
+    <Rule Id="CA1707" Action="None" /><!-- Disable IdentifiersShouldNotContainUnderscores rule. -->
+    <Rule Id="CA2007" Action="None" /><!-- Consider calling ConfigureAwait on the awaited task. -->
+    <Rule Id="CA2227" Action="None" /><!-- Collection properties should be read only. -->
+    <Rule Id="CS1591" Action="None" /><!-- Missing XML comment for publicly visible type or member. -->
+  </Rules>
+  <Rules AnalyzerId="Stylecop.Analyzers"  RuleNamespace="Stylecop.Analyzers" >
+    <Rule Id="SA1135" Action="None" /><!-- Disable Directives for namespace should be qualified -->
+    <Rule Id="SA1600" Action="None" /><!-- Disable Elements should be documented rule -->
+    <Rule Id="SA1602" Action="None" /><!-- Enumeration items should be documented. -->
+    <Rule Id="SA1623" Action="None" /><!-- The property's documentation summary text should begin with: 'Gets or sets' -->
+  </Rules>
+</RuleSet>
